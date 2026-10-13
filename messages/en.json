@@ -1,0 +1,564 @@
+{
+  "NavBar": {
+    "Links": {
+      "Home": "Home",
+      "About": "About",
+      "Contact": "Contact",
+      "Projects": "Projects"
+    }
+  },
+  "Footer": {
+    "Link": "Mohamed Badwy",
+    "Copyright": "All rights reserved."
+  },
+  "Home": {
+    "Name": "Mohamed Badwy",
+    "Title": "Software Engineer",
+    "Description1": "Software Engineer focused on full-stack web development. I build modern, responsive web applications using ",
+    "Strong1": "React",
+    "Strong2": "Next.js",
+    "Strong3": " Node.js",
+    "Description2": ", with an emphasis on clean code and usability.",
+    "AboutAnchor": "To Know More About Me",
+    "Comma": ",",
+    "DownloadButton": "Download CV ",
+    "And": "and"
+  },
+  "About": {
+    "Profile": {
+      "Name": "Mohamed Badwy",
+      "Title": "Software Engineer",
+      "DownloadButton": "Download CV",
+      "ProfileList": {
+        "Location": {
+          "Title": "Alexandria, Egypt",
+          "Description": ""
+        },
+        "Education": {
+          "Title": "Faculty of Engineering",
+          "Description": "Communication and Electronics"
+        },
+        "JobTitle": {
+          "Title": "Full-Stack Developer",
+          "Description": "React . Node.js . Next.js"
+        }
+      }
+    },
+    "Details": {
+      "TextAndParagraphs": {
+        "Heading": "About Me",
+        "Title": "From Circuits to Code.",
+        "TechnicalParagraph": "My path into software started after a strong finish in high school, where I ranked among the top 2,500 students in Egypt. This led me to pursue a degree in Communication and Electronics Engineering, which I completed with a Very Good grade. Alongside my university coursework, I took hands-on software and web development tracks at Route Academy, building practical, production-style skills beyond the classroom. That foundation led to CyberVault, my graduation project — a secure digital banking web app where I worked on the frontend, backend API, and security implementation end-to-end.",
+        "PersonalParagraph": "Outside of coding, I enjoy football and have been a passionate Al Ahly supporter for as long as I can remember. I also enjoy learning languages and communicate in Arabic, English, and German. As I start my career as a junior software engineer, I’m looking forward to gaining real-world experience, working with experienced developers, contributing to meaningful projects, and continuing to grow both technically and professionally."
+      },
+      "CharacteristicsCards": {
+        "Card1": {
+          "title": "Problem Solving",
+          "description": "Finding practical solutions."
+        },
+        "Card2": {
+          "title": "Fast Learner",
+          "description": "Exploring new technologies."
+        },
+        "Card3": {
+          "title": "Team Player",
+          "description": "Collaborating and learning."
+        },
+        "Card4": {
+          "title": "Continuous Learner",
+          "description": "Always improving my skills."
+        }
+      },
+      "Timeline": {
+        "Heading": "My Journey",
+        "Title": "From Curiosity to Coding",
+        "TimelineItems": {
+          "Projects": {
+            "Title": "Building Real Projects",
+            "Date": "June 2025 - Present",
+            "Description": "Built and deployed projects like e-commerce , social media and cybervault"
+          },
+          "University": {
+            "Title": "Engineering University",
+            "Date": "Sep. 2021 - July 2026",
+            "Description": "I graduated from the Faculty of Engineering at Alexandria University, majoring in Communication and Electronics with a grade V.Good."
+          },
+          "Software": {
+            "Title": "Software & Web Development",
+            "Date": "Oct. 2024 - Present",
+            "Description": "I started my journey in software and web development by taking physical courses and online courses, and I have been working on personal projects to enhance my skills and knowledge in this field."
+          },
+          "WhatNext": {
+            "Title": "What's Next?",
+            "Description": "I am currently seeking opportunities to work on real-world projects, collaborate with experienced professionals, and continue learning and growing in the field of software and web development."
+          }
+        }
+      },
+      "Skills": {
+        "Heading": "My Skills",
+        "Title": "A Glimpse into My Expertise"
+      }
+    }
+  },
+  "Contact": {
+    "Heading": "Let's Connect",
+    "Description": "Have a project in mind or just want to say hi? Feel free to reach out anytime. I'll get back to you as soon as I can. You can reach me via email or through my social media channels.",
+    "Form": {
+      "Name": {
+        "Label": "Name",
+        "Placeholder": "Enter your name",
+        "Error": {
+          "Required": "Name is required",
+          "MinLength": "Minimum 3 characters required",
+          "MaxLength": "Maximum 50 characters allowed"
+        }
+      },
+      "Subject": {
+        "Label": "Subject",
+        "Placeholder": "Enter your subject",
+        "Error": {
+          "Required": "Subject is required",
+          "MinLength": "Minimum 3 characters required",
+          "MaxLength": "Maximum 100 characters allowed"
+        }
+      },
+      "Email": {
+        "Label": "Email",
+        "Placeholder": "Enter your email",
+        "Error": {
+          "Required": "Email is required",
+          "Invalid": "Invalid email address"
+        }
+      },
+      "Message": {
+        "Label": "Message",
+        "Placeholder": "Enter your message",
+        "Error": {
+          "Required": "Message is required",
+          "MinLength": "Minimum 10 characters required",
+          "MaxLength": "Maximum 500 characters allowed"
+        }
+      },
+      "FormBtn": {
+        "Submit": "Send Message",
+        "Loading": "Sending..."
+      }
+    },
+    "Details": {
+      "Location": {
+        "Title": "Location",
+        "Description": "Alexandria, Egypt"
+      },
+      "Email": "Email",
+      "Phone": "Phone",
+      "SocialMedia": "Social Media",
+      "Availability": {
+        "Title": "Availability",
+        "Description": "Open to opportunities"
+      }
+    }
+  },
+  "Projects": {
+    "Heading": "What I've Built",
+    "Description": "From small experiments to full-stack applications, here's a look at some of the things I've built.",
+    "Project": {
+      "CyberVault": {
+        "Card": {
+          "name": "CyberVault",
+          "description": "A secure banking application that allows users to manage their finances, make transactions, and access various banking services online.",
+          "imageAlt": "CyberVault Website Image",
+          "buttonText": "More Details"
+        },
+        "Details": {
+          "HeroSection": {
+            "Title": "CyberVault",
+            "Description": "CyberVault is a full-stack banking management platform designed to handle customer accounts, financial transactions, profile management, and employee and user administration through role-specific interfaces. Built with Next.js and a dedicated Node.js/Express REST API backed by MySQL, the system combines structured business logic with authentication, role-based authorization, token security, input validation, and audit logging.",
+            "LiveDemoBtn": "View Live Project",
+            "LiveHref": "https://www.cybervault.systems/",
+            "SourceCodeBtn": "View Source Code",
+            "SourceHref": "https://github.com/mohamedBadwy22/CyberVault"
+          },
+          "TechStackSection": "Technologies Used",
+          "Overview": {
+            "Title": "Project Overview",
+            "Description": "CyberVault is a full-stack banking and financial management system that combines customer banking services with internal bank administration. It supports three main roles: customers, employees, and administrators. Customers can manage their profiles, view account details and balances, and review transaction history. Employees can search for customers and manage their information according to their permissions. Administrators can manage employees and users, unlock accounts, and access administrative dashboards. Each role has its own interface and navigation. The frontend uses Next.js, React, and TypeScript, while a separate Node.js/Express backend provides a versioned REST API. Next.js API routes connect the frontend to the backend and handle request forwarding, authentication data, cookies, and responses. The backend is organized into routes, controllers, services, repositories, Sequelize models, validation, middleware, and utilities. This structure keeps responsibilities clear while supporting account management, transaction workflows, role-based administration, and layered security."
+          },
+          "Feature": {
+            "Title": "Key Features",
+            "Items": [
+              {
+                "title": "Secure Authentication",
+                "description": "Authentication and authorization concepts protect access to user, employee, and administrator areas."
+              },
+              {
+                "title": "Role-based Experiences",
+                "description": "Separate areas and navigation keep each role focused on its relevant banking responsibilities."
+              },
+              {
+                "title": "Banking Workflows",
+                "description": "User-facing transaction functionality supports core banking workflows within the application."
+              },
+              {
+                "title": "Attack Mitigation",
+                "description": "Security measures are implemented to mitigate common web application attacks and vulnerabilities."
+              },
+              {
+                "title": "User & Employee Management",
+                "description": "Administrators can manage user and employee accounts, including role assignments and access control."
+              },
+              {
+                "title": "Deployment and Infrastructure",
+                "description": "The application is deployed on a cloud platform with a real domain name and SSL certificate."
+              }
+            ]
+          },
+          "Screenshot": {
+            "Title": "Screenshots",
+            "Items": [
+              {
+                "Src": "/images/cybervault/admin-dashboard.png",
+                "Alt": "CyberVault Admin Dashboard Screenshot",
+                "Title": "Admin Dashboard",
+                "Description": "CyberVault Admin Dashboard shows the administrative interface for managing the application."
+              },
+              {
+                "Src": "/images/cybervault/login.png",
+                "Alt": "CyberVault Login Screenshot",
+                "Title": "Login",
+                "Description": "CyberVault Login page allows users to authenticate and access their accounts."
+              },
+              {
+                "Src": "/images/cybervault/user-home.png",
+                "Alt": "CyberVault User Home Screenshot",
+                "Title": "User Home",
+                "Description": "CyberVault User Home page provides users with an overview of their account and recent activities."
+              },
+              {
+                "Src": "/images/cybervault/employee-home.png",
+                "Alt": "CyberVault Employee Home Screenshot",
+                "Title": "Employee Home",
+                "Description": "CyberVault Employee Home page provides employees with tools and information to manage user accounts and transactions."
+              },
+              {
+                "Src": "/images/cybervault/user-trans.png",
+                "Alt": "CyberVault User Transactions Screenshot",
+                "Title": "User Transactions",
+                "Description": "CyberVault User Transactions page allows users to view and manage their financial transactions."
+              },
+              {
+                "Src": "/images/cybervault/admin-home.png",
+                "Alt": "CyberVault Admin Home Screenshot",
+                "Title": "Admin Home",
+                "Description": "CyberVault Admin Home page provides administrators with an overview of the system and key metrics."
+              }
+            ]
+          },
+          "ReturnBtn": "Back to Projects",
+          "ChallengesAndSolutions": {
+            "Title": "Challenges and Solutions",
+            "Challenge": "Challenges",
+            "Solution": "Solutions",
+            "Items": [
+              {
+                "Challenge": "Representing different responsibilities without making the banking experience difficult to navigate.",
+                "Solution": "Organized the application around user, employee, and administrator areas with role-specific navigation."
+              },
+              {
+                "Challenge": "Protecting access to areas that contain account and transaction information.",
+                "Solution": "Applied authentication and role-based access concepts to protected application areas."
+              },
+              {
+                "Challenge": "Keeping the web application's responsibilities separate from the wider network and infrastructure work.",
+                "Solution": "Kept the frontend and backend API scope distinct from the graduation project's broader network and infrastructure component."
+              }
+            ]
+          }
+        }
+      },
+      "Ecommerce": {
+        "Card": {
+          "name": "E-Commerce",
+          "description": "An e-commerce platform that enables users to browse products, add items to their cart, and complete purchases securely.",
+          "imageAlt": "E-Commerce Website Image",
+          "buttonText": "More Details"
+        },
+        "Details": {
+          "HeroSection": {
+            "Title": "E-Commerce",
+            "Description": "An online shopping application for browsing products, managing a cart, and completing purchases.",
+            "LiveDemoBtn": "Project Under Dev.",
+            "LiveHref": "#",
+            "SourceCodeBtn": "View Source Code",
+            "SourceHref": "https://github.com/mohamedBadwy22/Exclusive_E-Commerce"
+          },
+          "TechStackSection": "Technologies Used",
+          "Overview": {
+            "Title": "Project Overview",
+            "Description": "A full-featured e-commerce application built with Next.js and connected to a real API. Users can register and sign in, browse products, add items to their cart, save products to a wishlist, complete the checkout process, and manage their account from one seamless shopping experience."
+          },
+          "Feature": {
+            "Title": "Key Features",
+            "Items": [
+              {
+                "title": "Authentication",
+                "description": "Users can register, sign in, and access their personalized shopping experience."
+              },
+              {
+                "title": "Cart CRUD",
+                "description": "Users can create, read, update, and delete items in their shopping cart."
+              },
+              {
+                "title": "Checkout",
+                "description": "Users can complete their orders through real APIs."
+              },
+              {
+                "title": "Wishlist",
+                "description": "Users can add products to their wishlist for future reference."
+              },
+              {
+                "title": "Account Management",
+                "description": "Users can manage their account information and preferences."
+              },
+              {
+                "title": "REST API Integration",
+                "description": "The application connects to a real REST API for product data, cart management, and order processing."
+              }
+            ]
+          },
+          "Screenshot": {
+            "Title": "Screenshots",
+            "Items": [
+              {
+                "Src": "/e-commerce.png",
+                "Alt": "E-Commerce Home Screenshot",
+                "Title": "Home Page",
+                "Description": "The E-Commerce Home page displays featured products and categories for users to explore."
+              }
+            ]
+          },
+          "ReturnBtn": "Back to Projects",
+          "ChallengesAndSolutions": {
+            "Title": "Challenges and Solutions",
+            "Challenge": "Challenges",
+            "Solution": "Solutions",
+            "Items": [
+              {
+                "Challenge": "Managing product and cart data in real time",
+                "Solution": "Connected the interface to a real REST API that retrieves product data and synchronizes cart updates."
+              },
+              {
+                "Challenge": "Keeping the shopping experience clear and easy to use",
+                "Solution": "Structured the journey into focused steps for browsing products, managing the cart and wishlist, and completing an order."
+              },
+              {
+                "Challenge": "Protecting accounts and orders",
+                "Solution": "Organized registration, sign-in, and account management around each user's private data and orders."
+              }
+            ]
+          }
+        }
+      },
+      "SarahaApp": {
+        "Card": {
+          "name": "Saraha App",
+          "description": "A backend social messaging project for handling anonymous messages and user accounts.",
+          "imageAlt": "Saraha App Thumbnail Image",
+          "buttonText": "More Details"
+        },
+        "Details": {
+          "HeroSection": {
+            "Title": "Saraha App",
+            "Description": "A backend project for anonymous messaging, user accounts, and message management. The project is currently under development.",
+            "LiveDemoBtn": "Project Under Development",
+            "LiveHref": "#",
+            "SourceCodeBtn": "View Source Code",
+            "SourceHref": ""
+          },
+          "TechStackSection": "Technologies Used",
+          "Overview": {
+            "Title": "Project Overview",
+            "Description": "Saraha App is a backend project focused on user accounts and anonymous messages. It is being developed with Node.js and Express.js, with a REST API planned for authentication and message management."
+          },
+          "Feature": {
+            "Title": "Key Features",
+            "Items": [
+              {
+                "title": "Authentication",
+                "description": "The backend will support user registration and sign-in."
+              },
+              {
+                "title": "Anonymous Messages",
+                "description": "Users will be able to receive anonymous messages through their profile."
+              },
+              {
+                "title": "REST API",
+                "description": "The planned API will handle authentication, users, and anonymous messages."
+              }
+            ]
+          },
+          "Screenshot": {
+            "Title": "Screenshots",
+            "Items": [
+              {
+                "Src": "/sarahaApp-thumbnail.jpg",
+                "Alt": "Saraha App Thumbnail",
+                "Title": "Saraha App",
+                "Description": "The Saraha App backend is under development, with a focus on user accounts and anonymous messaging."
+              }
+            ]
+          },
+          "ReturnBtn": "Back to Projects",
+          "ChallengesAndSolutions": {
+            "Title": "Challenges and Solutions",
+            "Challenge": "Challenges",
+            "Solution": "Solutions",
+            "Items": [
+              {
+                "Challenge": "Structuring the backend API",
+                "Solution": "The project is being organized around clear routes and message-related operations."
+              },
+              {
+                "Challenge": "Handling anonymous messages",
+                "Solution": "The API will connect messages to the correct user while keeping the sender anonymous."
+              }
+            ]
+          }
+        }
+      },
+      "SocialMedia": {
+        "Card": {
+          "name": "Social Media Application",
+          "description": "A social media application that allows users to connect with friends, share updates, and engage with content.",
+          "imageAlt": "Social Media Application website Image",
+          "buttonText": "More Details"
+        },
+        "Details": {
+          "HeroSection": {
+            "Title": "Social App",
+            "Description": "A responsive social media web application built with React, allowing users to authenticate, explore posts, publish text and image content, interact through comments, and manage their profiles. The application integrates with an external REST API using Axios and TanStack React Query, with protected routes, schema-based form validation, reusable UI components, and responsive layouts for mobile, tablet, and desktop.",
+            "LiveDemoBtn": "View Live Project",
+            "LiveHref": "https://social-app-chi-rouge.vercel.app/",
+            "SourceCodeBtn": "View Source Code",
+            "SourceHref": "https://github.com/mohamedBadwy22/Social-App"
+          },
+          "TechStackSection": "Technologies Used",
+          "Overview": {
+            "Title": "Project Overview",
+            "Description": "Social App is a responsive social media application where users can create accounts, sign in, browse posts, publish text and image updates, add comments, and manage their profiles. Public pages are separated from protected areas such as the feed, posts, profile, and settings. React Context manages authentication and user data, while protected routes control access for signed-in users. Axios connects the app to an external REST API, and TanStack React Query manages server data and updates. React Hook Form with Zod handles validation, while FormData supports image uploads with previews and file restrictions. Reusable components, modals, notifications, and responsive layouts keep the experience consistent. Adding friends and sharing posts are currently UI-only features."
+          },
+          "Feature": {
+            "Title": "Key Features",
+            "Items": [
+              {
+                "title": "Authentication and Protected Navigation",
+                "description": "Users can create accounts, sign in, and access protected pages."
+              },
+              {
+                "title": "Posts and Paginated Feed",
+                "description": "Users can browse a paginated feed and create text or image posts."
+              },
+              {
+                "title": "Comments and Post Interactions",
+                "description": "Users can view, add, and delete comments on posts."
+              },
+              {
+                "title": "Profile and Account Management",
+                "description": "Users can view their profile, upload an avatar, and change their password."
+              },
+              {
+                "title": "Validated Forms and Image Uploads",
+                "description": "Forms are validated with React Hook Form and Zod, with support for image uploads."
+              },
+              {
+                "title": "Reusable Responsive Interface",
+                "description": "Reusable components provide a consistent experience across desktop and mobile."
+              }
+            ]
+          },
+          "Screenshot": {
+            "Title": "Screenshots",
+            "Items": [
+              {
+                "Src": "/images/social-media/social-app.png",
+                "Alt": "Register Page Screenshot",
+                "Title": "Sign Up",
+                "Description": "The Sign Up page allows users to create a new account."
+              },
+              {
+                "Src": "/images/social-media/user-home.png",
+                "Alt": "User Home Screenshot",
+                "Title": "User Home",
+                "Description": "The User Home page shows others posts and allow user to create new posts."
+              },
+              {
+                "Src": "/images/social-media/user-profile.png",
+                "Alt": "User Profile Screenshot",
+                "Title": "User Profile",
+                "Description": "The User Profile page allows users to create posts and see their personal information."
+              },
+              {
+                "Src": "/images/social-media/change-profile-pic.png",
+                "Alt": "User Settings Screenshot",
+                "Title": "User Settings",
+                "Description": "The User Settings page allows users to manage their account settings and preferences."
+              },
+              {
+                "Src": "/images/social-media/comment.png",
+                "Alt": "Making Comment Screenshot",
+                "Title": "Making Comment",
+                "Description": "The Making Comment Component allows users to add comments to posts."
+              },
+              {
+                "Src": "/images/social-media/delete-post.png",
+                "Alt": "Deleting Post Screenshot",
+                "Title": "Deleting ",
+                "Description": "The Deleting Component allows users to remove their own posts or comments."
+              }
+            ]
+          },
+          "ReturnBtn": "Back to Projects",
+          "ChallengesAndSolutions": {
+            "Title": "Challenges and Solutions",
+            "Challenge": "Challenges",
+            "Solution": "Solutions",
+            "Items": [
+              {
+                "Challenge": "Maintaining authentication across page refreshes",
+                "Solution": "Used React Context, browser storage, and protected routes to restore and control user sessions."
+              },
+              {
+                "Challenge": "Managing asynchronous API states",
+                "Solution": "Used TanStack React Query, loading states, and toast notifications for request feedback."
+              },
+              {
+                "Challenge": "Validating forms and user input",
+                "Solution": "Used React Hook Form and Zod for shared validation rules and field-level errors."
+              },
+              {
+                "Challenge": "Improving image uploads",
+                "Solution": "Added previews, FormData uploads, and file type and size validation."
+              },
+              {
+                "Challenge": "Building reusable post and comment components",
+                "Solution": "Reusable components and current-user data control shared content actions."
+              },
+              {
+                "Challenge": "Keeping the layout responsive",
+                "Solution": "Used HeroUI and responsive Tailwind CSS layouts for mobile, tablet, and desktop."
+              },
+              {
+                "Challenge": "Refreshing data after mutations",
+                "Solution": "Used React Query updates and refetching to keep content synchronized with the API."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "NotFound": {
+      "Title": "Oops! Project not found.",
+      "Description": "Unfortunately, the project you are looking for does not exist. It might have been moved or deleted. Please check the URL or return to the projects page.",
+      "ButtonText": "Back to Projects"
+    }
+  }
+}

@@ -1,0 +1,564 @@
+{
+  "NavBar": {
+    "Links": {
+      "Home": "Startseite",
+      "About": "Über",
+      "Contact": "Kontakt",
+      "Projects": "Projekte"
+    }
+  },
+  "Footer": {
+    "Link": "Mohamed Badwy",
+    "Copyright": "Alle Rechte vorbehalten."
+  },
+  "Home": {
+    "Name": "Mohamed Badwy",
+    "DownloadButton": "CV Downloaden ",
+    "Title": "Software-Ingenieur",
+    "Description1": "Software-Ingenieur mit Schwerpunkt auf Full-Stack-Webentwicklung. Ich erstelle moderne, reaktionsschnelle Webanwendungen mit ",
+    "Strong1": "React",
+    "Strong2": "Next.js",
+    "Strong3": " Node.js",
+    "AboutAnchor": "Mehr Über Mich Erfahren",
+    "Description2": ", mit Schwerpunkt auf sauberem Code und Benutzerfreundlichkeit.",
+    "Comma": ",",
+    "And": "und"
+  },
+  "About": {
+    "Profile": {
+      "Name": "Mohamed Badwy",
+      "Title": "Software-Ingenieur",
+      "DownloadButton": "CV Downloaden",
+      "ProfileList": {
+        "Location": {
+          "Title": "Alexandria, Ägypten",
+          "Description": ""
+        },
+        "Education": {
+          "Title": "Fakultät für Ingenieurwissenschaften",
+          "Description": "Kommunikations- und Elektrotechnik"
+        },
+        "JobTitle": {
+          "Title": "Full-Stack-Entwickler",
+          "Description": "React . Node.js . Next.js"
+        }
+      }
+    },
+    "Details": {
+      "TextAndParagraphs": {
+        "Heading": "Über mich",
+        "Title": "Von Schaltungen zu Code.",
+        "TechnicalParagraph": "Mein Weg in die Softwareentwicklung begann nach einem sehr guten Schulabschluss, durch den ich zu den 2.500 besten Schülern Ägyptens gehörte. Dadurch entschied ich mich für ein Studium der Kommunikations- und Elektrotechnik, das ich mit der Note Sehr gut abgeschlossen habe. Zusätzlich zu meinem Studium belegte ich praxisnahe Kurse für Software- und Webentwicklung an der Route Academy und konnte so praktische Fähigkeiten über den Unterricht hinaus aufbauen. Diese Grundlage führte zu CyberVault, meinem Abschlussprojekt: einer sicheren Webanwendung für digitales Banking, bei der ich durchgehend an der Benutzeroberfläche, der Backend-API und der Sicherheitsimplementierung gearbeitet habe.",
+        "PersonalParagraph": "Neben dem Programmieren interessiere ich mich für Fußball und bin schon seit ich denken kann begeisterter Al-Ahly-Fan. Außerdem lerne ich gerne Sprachen und spreche Arabisch, Englisch und Deutsch. Während ich meine Karriere als Junior-Softwareentwickler beginne, freue ich mich darauf, praktische Berufserfahrung zu sammeln, mit erfahrenen Entwicklern zusammenzuarbeiten, zu sinnvollen Projekten beizutragen und mich fachlich wie persönlich weiterzuentwickeln."
+      },
+      "CharacteristicsCards": {
+        "Card1": {
+          "title": "Problemlösung",
+          "description": "Praktische Lösungen finden."
+        },
+        "Card2": {
+          "title": "Schneller Lerner",
+          "description": "Neue Technologien entdecken."
+        },
+        "Card3": {
+          "title": "Teamplayer",
+          "description": "Zusammenarbeiten und voneinander lernen."
+        },
+        "Card4": {
+          "title": "Lebenslanges Lernen",
+          "description": "Meine Fähigkeiten ständig verbessern."
+        }
+      },
+      "Timeline": {
+        "Heading": "Mein Weg",
+        "Title": "Von Neugier zum Programmieren",
+        "TimelineItems": {
+          "Projects": {
+            "Title": "Echte Projekte entwickeln",
+            "Date": "Juni 2025 - heute",
+            "Description": "Ich habe Projekte wie E-Commerce-, Social-Media- und CyberVault-Anwendungen entwickelt und veröffentlicht."
+          },
+          "University": {
+            "Title": "Ingenieurstudium",
+            "Date": "Sept. 2021 - Juli 2026",
+            "Description": "Ich habe mein Studium an der Fakultät für Ingenieurwissenschaften der Universität Alexandria mit Schwerpunkt Kommunikations- und Elektrotechnik und der Note Sehr gut abgeschlossen."
+          },
+          "Software": {
+            "Title": "Software- und Webentwicklung",
+            "Date": "Okt. 2024 - heute",
+            "Description": "Ich begann meinen Weg in der Software- und Webentwicklung mit Präsenz- und Onlinekursen und arbeite an eigenen Projekten, um meine Fähigkeiten und mein Wissen weiter auszubauen."
+          },
+          "WhatNext": {
+            "Title": "Wie geht es weiter?",
+            "Description": "Ich suche derzeit nach Möglichkeiten, an echten Projekten zu arbeiten, mit erfahrenen Fachleuten zusammenzuarbeiten und mich in der Software- und Webentwicklung weiterzuentwickeln."
+          }
+        }
+      },
+      "Skills": {
+        "Heading": "Meine Fähigkeiten",
+        "Title": "Ein Einblick in meine Kenntnisse"
+      }
+    }
+  },
+  "Contact": {
+    "Heading": "Lass uns verbinden",
+    "Description": "Hast du ein Projekt im Kopf oder möchtest einfach nur Hallo sagen? Schreib mir jederzeit. Ich melde mich so schnell wie möglich bei dir. Du kannst mich per E-Mail oder über meine sozialen Medien erreichen.",
+    "Form": {
+      "Name": {
+        "Label": "Name",
+        "Placeholder": "Gib deinen Namen ein",
+        "Error": {
+          "Required": "Name ist erforderlich",
+          "MinLength": "Mindestens 3 Zeichen erforderlich",
+          "MaxLength": "Maximal 50 Zeichen erlaubt"
+        }
+      },
+      "Subject": {
+        "Label": "Betreff",
+        "Placeholder": "Gib deinen Betreff ein",
+        "Error": {
+          "Required": "Betreff ist erforderlich",
+          "MinLength": "Mindestens 3 Zeichen erforderlich",
+          "MaxLength": "Maximal 100 Zeichen erlaubt"
+        }
+      },
+      "Email": {
+        "Label": "E-Mail",
+        "Placeholder": "Gib deine E-Mail ein",
+        "Error": {
+          "Required": "E-Mail ist erforderlich",
+          "Invalid": "Ungültige E-Mail-Adresse"
+        }
+      },
+      "Message": {
+        "Label": "Nachricht",
+        "Placeholder": "Schreib deine Nachricht",
+        "Error": {
+          "Required": "Nachricht ist erforderlich",
+          "MinLength": "Mindestens 10 Zeichen erforderlich",
+          "MaxLength": "Maximal 500 Zeichen erlaubt"
+        }
+      },
+      "FormBtn": {
+        "Submit": "Nachricht senden",
+        "Loading": "Wird gesendet..."
+      }
+    },
+    "Details": {
+      "Location": {
+        "Title": "Standort",
+        "Description": "Alexandria, Ägypten"
+      },
+      "Email": "E-Mail",
+      "Phone": "Telefon",
+      "SocialMedia": "Soziale Medien",
+      "Availability": {
+        "Title": "Verfügbarkeit",
+        "Description": "Für neue Projekte offen"
+      }
+    }
+  },
+  "Projects": {
+    "Heading": "Was ich entwickelt habe",
+    "Description": "Von kleinen Experimenten bis zu Full-Stack-Anwendungen: Hier ist eine Auswahl meiner Projekte.",
+    "Project": {
+      "CyberVault": {
+        "Card": {
+          "name": "CyberVault",
+          "description": "Eine sichere Banking-Anwendung, mit der Nutzer ihre Finanzen verwalten, Transaktionen durchführen und verschiedene Bankdienstleistungen online nutzen können.",
+          "imageAlt": "CyberVault-Website",
+          "buttonText": "Mehr Details"
+        },
+        "Details": {
+          "HeroSection": {
+            "Title": "CyberVault",
+            "Description": "CyberVault ist eine Full-Stack-Banking-Plattform zur Verwaltung von Kundenkonten, Finanztransaktionen, Profilen sowie Mitarbeiter- und Benutzerverwaltung über rollenbasierte Bereiche. Die Anwendung verwendet Next.js und eine separate Node.js/Express REST API mit MySQL sowie Authentifizierung, rollenbasierte Autorisierung, Token-Sicherheit, Eingabevalidierung und Audit-Logging.",
+            "LiveDemoBtn": "Live-Projekt ansehen",
+            "LiveHref": "https://www.cybervault.systems/",
+            "SourceCodeBtn": "Quellcode ansehen",
+            "SourceHref": "https://github.com/mohamedBadwy22/CyberVault"
+          },
+          "TechStackSection": "Verwendete Technologien",
+          "Overview": {
+            "Title": "Projektübersicht",
+            "Description": "CyberVault ist ein Full-Stack-System für Banking und Finanzverwaltung, das Kundenservices mit der internen Bankverwaltung verbindet. Es unterstützt drei Rollen: Kunden, Mitarbeiter und Administratoren. Kunden verwalten ihre Profile, sehen Kontodetails und Kontostände ein und prüfen ihre Transaktionshistorie. Mitarbeiter können Kunden suchen und ihre Daten entsprechend ihrer Berechtigungen verwalten. Administratoren verwalten Mitarbeiter und Benutzer, entsperren Konten und nutzen Verwaltungs-Dashboards. Jede Rolle hat eine eigene Oberfläche und Navigation. Das Frontend verwendet Next.js, React und TypeScript, während ein separates Node.js/Express-Backend eine versionierte REST API bereitstellt. Next.js API-Routen verbinden Frontend und Backend und verarbeiten Weiterleitung, Authentifizierungsdaten, Cookies und Antworten. Das Backend ist in Routen, Controller, Services, Repositories, Sequelize-Modelle, Validierung, Middleware und Hilfsfunktionen gegliedert."
+          },
+          "Feature": {
+            "Title": "Wichtige Funktionen",
+            "Items": [
+              {
+                "title": "Sichere Authentifizierung",
+                "description": "Authentifizierung und Autorisierung schützen den Zugriff auf die Bereiche der verschiedenen Rollen."
+              },
+              {
+                "title": "Rollenbasierte Bereiche",
+                "description": "Separate Bereiche und Navigation richten sich nach den jeweiligen Banking-Aufgaben."
+              },
+              {
+                "title": "Banking-Abläufe",
+                "description": "Transaktionsfunktionen unterstützen zentrale Banking-Abläufe innerhalb der Anwendung."
+              },
+              {
+                "title": "Angriffsabwehr",
+                "description": "Sicherheitsmaßnahmen reduzieren häufige Angriffe und Schwachstellen in Webanwendungen."
+              },
+              {
+                "title": "Benutzer- und Mitarbeitermanagement",
+                "description": "Administratoren verwalten Benutzer- und Mitarbeiterkonten, Rollen und Zugriffsrechte."
+              },
+              {
+                "title": "Bereitstellung und Infrastruktur",
+                "description": "Die Anwendung ist auf einer Cloud-Plattform mit eigener Domain und SSL-Zertifikat bereitgestellt."
+              }
+            ]
+          },
+          "Screenshot": {
+            "Title": "Screenshots",
+            "Items": [
+              {
+                "Src": "/images/cybervault/admin-dashboard.png",
+                "Alt": "CyberVault Administrator-Dashboard Screenshot",
+                "Title": "Administrator-Dashboard",
+                "Description": "Das CyberVault-Administrator-Dashboard zeigt die Verwaltungsoberfläche der Anwendung."
+              },
+              {
+                "Src": "/images/cybervault/login.png",
+                "Alt": "CyberVault Anmeldung Screenshot",
+                "Title": "Anmeldung",
+                "Description": "Die CyberVault-Anmeldeseite ermöglicht die Authentifizierung und den Zugriff auf Konten."
+              },
+              {
+                "Src": "/images/cybervault/user-home.png",
+                "Alt": "CyberVault Nutzerbereich Screenshot",
+                "Title": "Nutzerbereich",
+                "Description": "Der CyberVault-Nutzerbereich zeigt eine Übersicht über das Konto und aktuelle Aktivitäten."
+              },
+              {
+                "Src": "/images/cybervault/employee-home.png",
+                "Alt": "CyberVault Mitarbeiterbereich Screenshot",
+                "Title": "Mitarbeiterbereich",
+                "Description": "Der CyberVault-Mitarbeiterbereich bietet Werkzeuge zur Verwaltung von Benutzerkonten und Transaktionen."
+              },
+              {
+                "Src": "/images/cybervault/user-trans.png",
+                "Alt": "CyberVault Nutzertransaktionen Screenshot",
+                "Title": "Nutzertransaktionen",
+                "Description": "Die CyberVault-Transaktionsseite ermöglicht die Anzeige und Verwaltung von Finanztransaktionen."
+              },
+              {
+                "Src": "/images/cybervault/admin-home.png",
+                "Alt": "CyberVault Administratorbereich Screenshot",
+                "Title": "Administratorbereich",
+                "Description": "Der CyberVault-Administratorbereich zeigt eine Übersicht des Systems und wichtige Kennzahlen."
+              }
+            ]
+          },
+          "ReturnBtn": "Zurück zu den Projekten",
+          "ChallengesAndSolutions": {
+            "Title": "Herausforderungen und Lösungen",
+            "Challenge": "Herausforderungen",
+            "Solution": "Lösungen",
+            "Items": [
+              {
+                "Challenge": "Unterschiedliche Verantwortlichkeiten abzubilden, ohne die Banking-Erfahrung unübersichtlich zu machen.",
+                "Solution": "Die Anwendung wurde in Bereiche für Kunden, Mitarbeiter und Administratoren mit rollenspezifischer Navigation gegliedert."
+              },
+              {
+                "Challenge": "Den Zugriff auf Bereiche mit Konto- und Transaktionsdaten zu schützen.",
+                "Solution": "Authentifizierung und rollenbasierter Zugriff schützen die geschützten Anwendungsbereiche."
+              },
+              {
+                "Challenge": "Die Verantwortung der Webanwendung von den weiteren Netzwerk- und Infrastrukturaufgaben zu trennen.",
+                "Solution": "Frontend und Backend-API bleiben vom umfassenderen Netzwerk- und Infrastrukturteil des Abschlussprojekts getrennt."
+              }
+            ]
+          }
+        }
+      },
+      "Ecommerce": {
+        "Card": {
+          "name": "E-Commerce",
+          "description": "Eine E-Commerce-Plattform, auf der Nutzer Produkte durchsuchen, in den Warenkorb legen und sicher bezahlen können.",
+          "imageAlt": "E-Commerce-Website",
+          "buttonText": "Mehr Details"
+        },
+        "Details": {
+          "HeroSection": {
+            "Title": "E-Commerce",
+            "Description": "Eine umfassende Online-Shopping-Anwendung zum Durchsuchen von Produkten, Verwalten des Warenkorbs und einfachen Abschließen von Bestellungen.",
+            "LiveDemoBtn": "Projekt in Entwicklung",
+            "LiveHref": "#",
+            "SourceCodeBtn": "Quellcode ansehen",
+            "SourceHref": "https://github.com/mohamedBadwy22/Exclusive_E-Commerce"
+          },
+          "TechStackSection": "Verwendete Technologien",
+          "Overview": {
+            "Title": "Projektübersicht",
+            "Description": "Eine umfassende E-Commerce-Anwendung, entwickelt mit Next.js und angebunden an eine echte API. Nutzer können sich registrieren und anmelden, Produkte durchsuchen, Artikel in den Warenkorb legen, Produkte auf einer Wunschliste speichern, den Bestellvorgang abschließen und ihr Konto zentral verwalten."
+          },
+          "Feature": {
+            "Title": "Wichtige Funktionen",
+            "Items": [
+              {
+                "title": "Registrierung und Anmeldung",
+                "description": "Nutzer können ein Konto erstellen, sich anmelden und erhalten ein personalisiertes Einkaufserlebnis."
+              },
+              {
+                "title": "Warenkorbverwaltung",
+                "description": "Nutzer können Artikel in den Warenkorb legen, ihn anzeigen, Mengen ändern und Produkte wieder entfernen."
+              },
+              {
+                "title": "Bestellabschluss",
+                "description": "Nutzer können ihre Bestellungen über echte APIs abschließen."
+              },
+              {
+                "title": "Wunschliste",
+                "description": "Nutzer können Produkte für später auf ihrer persönlichen Wunschliste speichern."
+              },
+              {
+                "title": "Kontoverwaltung",
+                "description": "Nutzer können ihre Kontodaten und Einstellungen verwalten."
+              },
+              {
+                "title": "REST-API-Integration",
+                "description": "Die Anwendung ist für Produktdaten, Warenkorbverwaltung und Bestellabwicklung mit einer echten REST-API verbunden."
+              }
+            ]
+          },
+          "Screenshot": {
+            "Title": "Screenshots",
+            "Items": [
+              {
+                "Src": "/e-commerce.png",
+                "Alt": "Screenshot der E-Commerce-Startseite",
+                "Title": "Startseite",
+                "Description": "Auf der E-Commerce-Startseite werden ausgewählte Produkte und Kategorien zum Entdecken angezeigt."
+              }
+            ]
+          },
+          "ReturnBtn": "Zurück zu den Projekten",
+          "ChallengesAndSolutions": {
+            "Title": "Herausforderungen und Lösungen",
+            "Challenge": "Herausforderungen",
+            "Solution": "Lösungen",
+            "Items": [
+              {
+                "Challenge": "Produkt- und Warenkorbdaten in Echtzeit verwalten",
+                "Solution": "Die Benutzeroberfläche ist mit einer echten REST-API verbunden, die Produktdaten abruft und Warenkorbänderungen synchron aktualisiert."
+              },
+              {
+                "Challenge": "Eine übersichtliche Einkaufserfahrung schaffen",
+                "Solution": "Der Einkaufsprozess wurde in klare Schritte für Produktsuche, Warenkorb, Wunschliste und Bestellabschluss aufgeteilt."
+              },
+              {
+                "Challenge": "Konten und Bestellungen schützen",
+                "Solution": "Registrierung, Anmeldung und Kontoverwaltung sind auf die persönlichen Daten und Bestellungen des jeweiligen Nutzers ausgerichtet."
+              }
+            ]
+          }
+        }
+      },
+      "SarahaApp": {
+        "Card": {
+          "name": "Saraha-App",
+          "description": "Ein Backend-Projekt für soziale Nachrichten, anonyme Mitteilungen und Benutzerkonten.",
+          "imageAlt": "Saraha-App-Miniaturansicht",
+          "buttonText": "Mehr Details"
+        },
+        "Details": {
+          "HeroSection": {
+            "Title": "Saraha-App",
+            "Description": "Ein Backend-Projekt für anonyme Nachrichten, Benutzerkonten und Nachrichtenverwaltung. Das Projekt befindet sich derzeit in Entwicklung.",
+            "LiveDemoBtn": "Projekt in Entwicklung",
+            "LiveHref": "#",
+            "SourceCodeBtn": "Quellcode ansehen",
+            "SourceHref": ""
+          },
+          "TechStackSection": "Verwendete Technologien",
+          "Overview": {
+            "Title": "Projektübersicht",
+            "Description": "Saraha-App ist ein Backend-Projekt mit Fokus auf Benutzerkonten und anonyme Nachrichten. Es wird mit Node.js und Express.js entwickelt; eine REST-API für Authentifizierung und Nachrichtenverwaltung ist geplant."
+          },
+          "Feature": {
+            "Title": "Wichtige Funktionen",
+            "Items": [
+              {
+                "title": "Registrierung und Anmeldung",
+                "description": "Das Backend soll die Registrierung und Anmeldung von Nutzern unterstützen."
+              },
+              {
+                "title": "Anonyme Nachrichten",
+                "description": "Nutzer sollen über ihr Profil anonyme Nachrichten empfangen können."
+              },
+              {
+                "title": "REST-API",
+                "description": "Die geplante API soll Authentifizierung, Benutzer und anonyme Nachrichten verwalten."
+              }
+            ]
+          },
+          "Screenshot": {
+            "Title": "Screenshots",
+            "Items": [
+              {
+                "Src": "/sarahaApp-thumbnail.jpg",
+                "Alt": "Vorschaubild des Saraha-App-Projekts",
+                "Title": "Saraha-App-Vorschau",
+                "Description": "Vorschaubild des Saraha-App-Projekts, das sich noch in Entwicklung befindet."
+              }
+            ]
+          },
+          "ReturnBtn": "Zurück zu den Projekten",
+          "ChallengesAndSolutions": {
+            "Title": "Herausforderungen und Lösungen",
+            "Challenge": "Herausforderungen",
+            "Solution": "Lösungen",
+            "Items": [
+              {
+                "Challenge": "Die Backend-API strukturieren",
+                "Solution": "Das Projekt wird mit klaren Routen und Funktionen für die Nachrichtenverwaltung organisiert."
+              },
+              {
+                "Challenge": "Anonyme Nachrichten verarbeiten",
+                "Solution": "Die API soll Nachrichten dem richtigen Nutzer zuordnen und dabei die Identität des Absenders verbergen."
+              }
+            ]
+          }
+        }
+      },
+      "SocialMedia": {
+        "Card": {
+          "name": "Social App",
+          "description": "Eine Social-Media-Anwendung, mit der Nutzer sich mit Freunden verbinden, Beiträge teilen und mit Inhalten interagieren können.",
+          "imageAlt": "Website der Social-Media-Anwendung",
+          "buttonText": "Mehr Details"
+        },
+        "Details": {
+          "HeroSection": {
+            "Title": "Social App",
+            "Description": "Eine responsive Social-Media-Webanwendung mit React. Nutzer können sich anmelden, Beiträge entdecken, Text- und Bildinhalte veröffentlichen, Kommentare schreiben und ihre Profile verwalten. Die Anwendung verwendet eine externe REST API mit Axios und TanStack React Query sowie geschützte Routen, schema-basierte Formularvalidierung, wiederverwendbare UI-Komponenten und responsive Layouts.",
+            "LiveDemoBtn": "Live-Projekt ansehen",
+            "LiveHref": "https://social-app-chi-rouge.vercel.app/",
+            "SourceCodeBtn": "Quellcode ansehen",
+            "SourceHref": "https://github.com/mohamedBadwy22/Social-App"
+          },
+          "TechStackSection": "Verwendete Technologien",
+          "Overview": {
+            "Title": "Projektübersicht",
+            "Description": "Social App ist eine responsive Social-Media-Anwendung, in der Nutzer Konten erstellen, sich anmelden, Beiträge durchsuchen, Text- und Bildupdates veröffentlichen, Kommentare hinzufügen und ihre Profile verwalten können. Öffentliche Seiten sind von geschützten Bereichen wie Feed, Beiträgen, Profil und Einstellungen getrennt. React Context verwaltet Authentifizierung und Benutzerdaten, während geschützte Routen den Zugriff angemeldeter Nutzer steuern. Axios verbindet die Anwendung mit einer externen REST API und TanStack React Query verwaltet Serverdaten und Aktualisierungen. React Hook Form und Zod übernehmen die Validierung, während FormData Bild-Uploads mit Vorschauen und Dateibeschränkungen unterstützt. Wiederverwendbare Komponenten, Modals, Benachrichtigungen und responsive Layouts sorgen für ein konsistentes Erlebnis. Funktionen wie Freunde hinzufügen und Beiträge teilen sind derzeit nur UI-Elemente."
+          },
+          "Feature": {
+            "Title": "Wichtige Funktionen",
+            "Items": [
+              {
+                "title": "Authentifizierung und geschützte Navigation",
+                "description": "Nutzer können Konten erstellen, sich anmelden und geschützte Seiten aufrufen."
+              },
+              {
+                "title": "Beiträge und paginierter Feed",
+                "description": "Nutzer können einen paginierten Feed durchsuchen und Text- oder Bildbeiträge erstellen."
+              },
+              {
+                "title": "Kommentare und Beitragsinteraktionen",
+                "description": "Nutzer können Kommentare zu Beiträgen anzeigen, hinzufügen und löschen."
+              },
+              {
+                "title": "Profil- und Kontoverwaltung",
+                "description": "Nutzer können ihr Profil anzeigen, ein Profilbild hochladen und ihr Passwort ändern."
+              },
+              {
+                "title": "Validierte Formulare und Bild-Uploads",
+                "description": "Formulare werden mit React Hook Form und Zod validiert und unterstützen Bild-Uploads."
+              },
+              {
+                "title": "Wiederverwendbare responsive Oberfläche",
+                "description": "Wiederverwendbare Komponenten sorgen für ein konsistentes Erlebnis auf Desktop- und Mobilgeräten."
+              }
+            ]
+          },
+          "Screenshot": {
+            "Title": "Screenshots",
+            "Items": [
+              {
+                "Src": "/images/social-media/social-app.png",
+                "Alt": "Screenshot der Registrierungsseite",
+                "Title": "Registrierung",
+                "Description": "Auf der Registrierungsseite können Nutzer ein neues Konto erstellen."
+              },
+              {
+                "Src": "/images/social-media/user-home.png",
+                "Alt": "Screenshot des Nutzerbereichs",
+                "Title": "Nutzerbereich",
+                "Description": "Der Nutzerbereich zeigt Beiträge anderer Nutzer und ermöglicht das Erstellen neuer Beiträge."
+              },
+              {
+                "Src": "/images/social-media/user-profile.png",
+                "Alt": "Screenshot des Nutzerprofils",
+                "Title": "Nutzerprofil",
+                "Description": "Im Nutzerprofil können Nutzer Beiträge erstellen und ihre persönlichen Informationen sehen."
+              },
+              {
+                "Src": "/images/social-media/change-profile-pic.png",
+                "Alt": "Screenshot der Nutzereinstellungen",
+                "Title": "Nutzereinstellungen",
+                "Description": "In den Nutzereinstellungen können Nutzer Kontoeinstellungen und Präferenzen verwalten."
+              },
+              {
+                "Src": "/images/social-media/comment.png",
+                "Alt": "Screenshot zum Erstellen eines Kommentars",
+                "Title": "Kommentar erstellen",
+                "Description": "Die Kommentarfunktion ermöglicht es Nutzern, Beiträge zu kommentieren."
+              },
+              {
+                "Src": "/images/social-media/delete-post.png",
+                "Alt": "Screenshot zum Löschen eines Beitrags",
+                "Title": "Löschen",
+                "Description": "Die Löschfunktion ermöglicht es Nutzern, eigene Beiträge oder Kommentare zu entfernen."
+              }
+            ]
+          },
+          "ReturnBtn": "Zurück zu den Projekten",
+          "ChallengesAndSolutions": {
+            "Title": "Herausforderungen und Lösungen",
+            "Challenge": "Herausforderungen",
+            "Solution": "Lösungen",
+            "Items": [
+              {
+                "Challenge": "Authentifizierung nach dem Aktualisieren der Seite erhalten",
+                "Solution": "React Context, Browser-Speicher und geschützte Routen stellen Sitzungen wieder her und kontrollieren den Zugriff."
+              },
+              {
+                "Challenge": "Asynchrone API-Zustände verwalten",
+                "Solution": "TanStack React Query, Ladezustände und Toast-Benachrichtigungen geben Feedback zu Anfragen."
+              },
+              {
+                "Challenge": "Formulare und Benutzereingaben validieren",
+                "Solution": "React Hook Form und Zod bündeln Validierungsregeln und Feldfehler."
+              },
+              {
+                "Challenge": "Bild-Uploads verbessern",
+                "Solution": "Vorschauen, FormData-Uploads sowie Prüfungen von Dateityp und Dateigröße wurden ergänzt."
+              },
+              {
+                "Challenge": "Wiederverwendbare Komponenten für Beiträge und Kommentare entwickeln",
+                "Solution": "Wiederverwendbare Komponenten und aktuelle Benutzerdaten steuern gemeinsame Inhaltsaktionen."
+              },
+              {
+                "Challenge": "Das Layout responsive halten",
+                "Solution": "HeroUI und responsive Tailwind CSS-Layouts unterstützen Mobilgeräte, Tablets und Desktops."
+              },
+              {
+                "Challenge": "Daten nach Änderungen aktualisieren",
+                "Solution": "React Query aktualisiert und lädt betroffene Daten neu, damit sie mit der API synchron bleiben."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "NotFound": {
+      "Title": "Hoppla! Projekt nicht gefunden.",
+      "Description": "Das gesuchte Projekt existiert leider nicht. Es wurde möglicherweise verschoben oder gelöscht. Bitte überprüfe die URL oder kehre zur Projektseite zurück.",
+      "ButtonText": "Zurück zu den Projekten"
+    }
+  }
+}
