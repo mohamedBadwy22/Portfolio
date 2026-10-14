@@ -66,7 +66,32 @@ export async function generateMetadata(
     icons: {
       icon: "/logo.png",
     },
-    metadataBase: new URL("https://mohamedbadwy.me"),
+    metadataBase: new URL(languages[locale as keyof typeof languages]),
+    robots: {
+      index: true,
+      follow: true,
+      nocache: false,
+      googleBot: {
+        index: true,
+        follow: true,
+        "max-snippet": -1,
+      },
+    },
+    openGraph:{
+      title: localizedMetadata[locale as keyof typeof localizedMetadata].title,
+      description: localizedMetadata[locale as keyof typeof localizedMetadata].description,
+      url: languages[locale as keyof typeof languages],
+      siteName: "Mohamed Badwy | Full-Stack Developer",
+      images: [
+        {
+          url: "/logo.png",
+          width: 800,
+          height: 600,
+        },
+      ],
+      locale: locale,
+      type: "website",
+    }
   };
 }
 
