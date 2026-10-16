@@ -8,6 +8,7 @@ import { useTranslations } from "next-intl";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { Link } from "@/i18n/navigation";
 import SocialIcon from "../_component/SocialIcon/SocialIcon";
+import AnimatedSection from "../_component/AnimatedSection/AnimatedSection";
 
 export default function Home() {
   const t = useTranslations("Home");
@@ -28,11 +29,16 @@ export default function Home() {
     <>
       <div className="container overflow-hidden min-h-screen flex flex-col md:flex-row justify-evenly items-center gap-4">
         {/* data section */}
-        <section className="h-screen md:h-max flex flex-col justify-center px-3 my-3 md:px-6 max-w-sm sm:max-w-md xl:max-w-xl">
+        <AnimatedSection
+        className={"h-screen md:h-max flex flex-col justify-center px-3 my-3 md:px-6 max-w-sm sm:max-w-md xl:max-w-xl"}
+        initial={{ opacity: 0, x: -60 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5 , ease: "easeInOut" }} 
+        >
           {/* profile name and title */}
-          <h1 className="text-6xl lg:text-6xl xl:text-7xl font-black mb-4">
+          <h1 className="text-6xl lg:text-6xl xl:text-7xl font-black">
             {t("Name")}{" "}
-            <span className="text-emerald-500 dark:text-emerald-800 block text-xl font-bold">
+            <span className="text-emerald-500 dark:text-emerald-800 inline-block align-top mt-4 mb-2.5 text-xl font-bold">
               {t("Title")}
             </span>
           </h1>
@@ -67,10 +73,16 @@ export default function Home() {
               );
             })}
           </div>
-        </section>
 
+        </AnimatedSection>
+        
         {/* profile image section */}
-        <section className="hidden md:block relative z-10 overflow-y-clip">
+        <AnimatedSection
+        className={"relative z-10 overflow-y-clip"}
+        initial={{ opacity: 0, x: 60 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5 , ease: "easeInOut" }} 
+        >
           <Image
             priority
             className="max-w-2xs"
@@ -78,7 +90,7 @@ export default function Home() {
             alt="photo of mohamed badwy"
           />
           <ProfileBackground />
-        </section>
+        </AnimatedSection>
       </div>
     </>
   );

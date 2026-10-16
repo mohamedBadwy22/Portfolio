@@ -29,11 +29,26 @@ export default function ProjectFilter() {
           />
 
           {/* Projects */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 my-3.5">
-            {projects[active].map((project) => (
-              <ProjectCard key={project.name} project={project} />
+          {active === "all" && <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 my-3.5">
+            {projects.all.map((project,index) => (
+              <ProjectCard key={project.name} project={project} index={index} />
             ))}
-          </div>
+          </div>}
+          {active === "frontend" && <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 my-3.5">
+            {projects.frontend.map((project,index) => (
+              <ProjectCard key={project.name} project={project} index={index} />
+            ))}
+          </div>}
+          {active === "backend" && <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 my-3.5">
+            {projects.backend.map((project,index) => (
+              <ProjectCard key={project.name} project={project} index={index} />
+            ))}
+          </div>}
+          {active === "fullstack" && <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 my-3.5">
+            {projects.fullstack.map((project,index) => (
+              <ProjectCard key={project.name} project={project} index={index} />
+            ))}
+          </div>}
     </>
   )
 }

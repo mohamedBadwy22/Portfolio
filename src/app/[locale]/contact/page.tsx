@@ -9,9 +9,10 @@ import { IoMail } from "react-icons/io5";
 import { TbBrandGithubFilled } from "react-icons/tb";
 import { RiWhatsappFill } from "react-icons/ri";
 import SocialIcon from "@/app/_component/SocialIcon/SocialIcon";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
+import AnimatedSection from "@/app/_component/AnimatedSection/AnimatedSection";
 
 export async function generateMetadata(
   { params }: { params: Promise<{ locale: string }> },
@@ -113,10 +114,11 @@ export default function Contact() {
       href: "mailto:mohamed.badwy.dev@gmail.com",
     },
   ];
+  const locale = useLocale();
 
   return (
     <div className="container my-5">
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 mb-6">
         {/* Heading and Title */}
         <div className="w-10/12 my-3.5 flex self-center justify-center items-center">
           {/* Text */}
@@ -134,12 +136,22 @@ export default function Contact() {
         {/* contact form and details section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-3 lg:gap-4">
           {/* FormSection */}
-          <div className="select-none p-6 w-10/12 md:w-full lg:w-10/12 mx-auto shadow-lg dark:shadow-md md:shadow-2xl dark:shadow-emerald-800 border-2 rounded-2xl">
+          <AnimatedSection
+          className={"select-none p-6 w-10/12 md:w-full lg:w-10/12 mx-auto md:mx-0 md:ms-auto shadow-lg dark:shadow-md md:shadow-2xl dark:shadow-emerald-800 border-2 rounded-2xl"}
+          initial={ locale === "ar" ? { opacity: 0, x: 60 } : { opacity: 0, x: -60 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 , ease: "easeInOut" }}
+          >
             <ContactForm />
-          </div>
+          </AnimatedSection>
 
           {/* DetailsSection */}
-          <div className="p-6 w-10/12 md:w-full lg:w-10/12 flex flex-col gap-8 justify-evenly mx-auto shadow-lg dark:shadow-md md:shadow-2xl dark:shadow-emerald-800 border-2 rounded-2xl">
+          <AnimatedSection 
+          className={"p-6 w-10/12 md:w-full lg:w-10/12 flex flex-col gap-8 justify-evenly mx-auto md:mx-0 md:me-auto shadow-lg dark:shadow-md md:shadow-2xl dark:shadow-emerald-800 border-2 rounded-2xl"}
+          initial={ locale === "ar" ? { opacity: 0, x: -60 } : { opacity: 0, x: 60 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 , ease: "easeInOut" }}
+          >
             <div className="justify-self-start flex flex-col sm:ms-4 md:ms-0 lg:ms-4 justify-center gap-2 sm:gap-4">
               {contactDetails.map((card, index) => {
                 return <ContactCard key={index} card={card} />;
@@ -158,7 +170,7 @@ export default function Contact() {
                 })}
               </div>
             </div>
-          </div>
+          </AnimatedSection>
         </div>
       </div>
     </div>

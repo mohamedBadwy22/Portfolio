@@ -11,12 +11,13 @@ import { TbBrandGithubFilled } from "react-icons/tb";
 import { LuFileDown } from "react-icons/lu";
 import { BiSolidBrain } from "react-icons/bi";
 import { AiFillThunderbolt } from "react-icons/ai";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { IoMail } from "react-icons/io5";
 import SocialIcon from "@/app/_component/SocialIcon/SocialIcon";
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Locale } from "@/app/_data/projects";
+import AnimatedSection from "@/app/_component/AnimatedSection/AnimatedSection";
 
 
 export async function generateMetadata(
@@ -113,12 +114,18 @@ export default function About() {
       href: "mailto:mohamed.badwy.dev@gmail.com",
     }
   ];
+  const locale = useLocale();
 
   return (
     <div className="min-h-screen m-4 xl:m-8">
       <div className="container relative flex flex-col items-center md:flex-row md:justify-evenly md:items-start gap-2.5 lg:gap-4">
         {/* Profile Card Section */}
-        <section className=" md:sticky md:top-0 md:left-0 md:right-0 w-full sm:w-10/12 md:w-5/12 lg:w-4/12 2xl:w-3/12">
+        <AnimatedSection
+        className={'md:sticky md:top-0 md:left-0 md:right-0 w-full sm:w-10/12 md:w-5/12 lg:w-4/12 2xl:w-3/12'}
+        initial={locale === "ar" ? { opacity: 0, x: 60 } : { opacity: 0, x: -60 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.5 , ease: "easeInOut" }} 
+        >
           <div className="bg-emerald-500/10 dark:bg-emerald-800/10 shadow-lg flex flex-col gap-4 p-4 rounded-2xl">
             {/* Photo of mohamed badwy */}
             <Image
@@ -188,10 +195,15 @@ export default function About() {
               </li>
             </ul>
           </div>
-        </section>
+        </AnimatedSection>
 
         {/* About & Details Section */}
-        <section className="mt-6 md:m-0 md:p-3 flex flex-col gap-3.5 w-full md:w-7/12 lg:w-8/12">
+        <AnimatedSection
+          className={"mt-6 md:m-0 md:p-3 flex flex-col gap-3.5 w-full md:w-7/12 lg:w-8/12"}
+          initial={locale === "ar" ? { opacity: 0, x: -60 } : { opacity: 0, x: 60 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5 , ease: "easeInOut" }} 
+        >
           {/* Text and Paragraphs */}
           <div className="flex flex-col gap-4">
             <h1 className="text-4xl sm:text-5xl dark:text-gray-300 font-black mb-2">
@@ -205,9 +217,11 @@ export default function About() {
           </div>
 
           {/* Cards */}
-          <div className="my-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-4 relative after:content[''] after:absolute after:block after:w-full after:h-px after:top-[105%] after:bg-gray-300 dark:after:bg-gray-600 after:mt-2.5 after:mx-auto">
+          <div
+            className="my-4 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 gap-4 relative after:content[''] after:absolute after:block after:w-full after:h-px after:top-[105%] after:bg-gray-300 dark:after:bg-gray-600 after:mt-2.5 after:mx-auto"
+          >
             {aboutCards.map((card, index) => {
-              return <AboutCard key={index} card={card} />;
+              return <AboutCard key={index} card={card} index={index} />;
             })}
           </div>
 
@@ -236,7 +250,7 @@ export default function About() {
             </p>
           </div>
           <MySkills />
-        </section>
+        </AnimatedSection>
       </div>
     </div>
   );

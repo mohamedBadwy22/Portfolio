@@ -1,3 +1,4 @@
+"use client";
 import {
   Card,
   CardDescription,
@@ -9,11 +10,17 @@ import { Link } from "@/i18n/navigation";
 import { Project } from "@/types/project";
 import Image from "next/image";
 import { FaArrowRightLong } from "react-icons/fa6";
+import {motion} from "motion/react";
 
-export default function ProjectCard({ project }: { project: Project }) {
+export default function ProjectCard({ project , index }: { project: Project; index: number }) {
   return (
     <>
-      <div className="w-full flex justify-center items-center">
+      <motion.div 
+      initial={{ opacity: 0, scale: 0.75, y: 60 }}
+      whileInView={{ opacity: 1, y: 0, scale: 1 }}
+      viewport={{ amount: 0.35, once: true }}
+      transition={{ duration: 0.5, ease: "easeInOut", delay: index * 0.15 }}
+      className="w-full flex justify-center items-center">
         <Card className="relative mx-auto w-full max-w-sm pt-0 shadow-2xl dark:shadow-md dark:shadow-emerald-500">
           <div className="absolute inset-0 z-30 aspect-video" />
           <Image
@@ -39,7 +46,7 @@ export default function ProjectCard({ project }: { project: Project }) {
             </CardFooter>
           </Link>
         </Card>
-      </div>
+      </motion.div>
     </>
   );
 }

@@ -65,11 +65,24 @@ export default function MySkills() {
       <FilterBtn btnsArr={techBtn} active={active} setActive={setActive} />
 
       {/* Bottom Content (Skills itself) */}
+      {active === "frontend" && 
       <div className="flex flex-wrap justify-center items-center xl:justify-between mt-5 mb-3.5 gap-1.5 lg:gap-3.5">
-        {skills[active].map((skill, index) => {
-          return <SkillCard key={index} skill={skill} />;
+        {skills.frontend.map((skill, index) => {
+          return <SkillCard key={index} skill={skill} index={index} />;
         })}
-      </div>
+      </div>}
+      {active === "backend" && 
+      <div className="flex flex-wrap justify-center items-center xl:justify-between mt-5 mb-3.5 gap-1.5 lg:gap-3.5">
+        {skills.backend.map((skill, index) => {
+          return <SkillCard key={index} skill={skill} index={index} />;
+        })}
+      </div>}
+      {active === "tools" && 
+      <div className="flex flex-wrap justify-center items-center xl:justify-between mt-5 mb-3.5 gap-1.5 lg:gap-3.5">
+        {skills.tools.map((skill, index) => {
+          return <SkillCard key={index} skill={skill} index={index} />;
+        })}
+      </div>}
     </>
   );
 }

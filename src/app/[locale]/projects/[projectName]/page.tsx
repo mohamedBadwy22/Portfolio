@@ -23,6 +23,8 @@ import { RiImageUploadLine, RiSecurePaymentFill } from "react-icons/ri";
 import { PiResizeFill } from "react-icons/pi";
 import { TbShoppingCartHeart } from "react-icons/tb";
 import { Metadata } from "next";
+import AnimatedSection from "@/app/_component/AnimatedSection/AnimatedSection";
+import AnimatedDiv from "@/app/_component/AnimatedDiv/AnimatedDiv";
 
 export async function generateMetadata(
   { params }: { params: Promise<{ locale: Locale; projectName: string }> },
@@ -185,7 +187,13 @@ export default async function page({
             </div>
 
             {/* Project Hero */}
-            <div className="relative flex flex-col lg:flex-row items-center gap-4 ">
+            <AnimatedSection
+            className={'relative flex flex-col lg:flex-row items-center gap-4'}
+            initial={{ opacity: 0, y: 60 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 , ease: "easeInOut" }}
+            >
+
               {/* Text & Description Section */}
               <div className="lg:w-1/2 flex flex-col gap-4">
                 {/* Title & Description */}
@@ -230,10 +238,15 @@ export default async function page({
               </div>
 
               <LineSeparator />
-            </div>
+            </AnimatedSection>
 
             {/* Technologies Used */}
-            <div className="relative flex flex-col gap-2 mt-6">
+            <AnimatedSection
+            className={'relative flex flex-col gap-2 mt-6'}
+            initial={{ opacity: 0, y: 60 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 , ease: "easeInOut" }}
+            >
               <h2 className="text-2xl text-emerald-500 font-bold">
                 {project.TechStackSection}
               </h2>
@@ -249,10 +262,16 @@ export default async function page({
               </div>
 
               <LineSeparator />
-            </div>
+            </AnimatedSection>
 
             {/* Project Overview */}
-            <div className="relative mt-6">
+            <AnimatedSection
+            className={'relative mt-6'}
+            initial={{ opacity: 0, y: 60 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 , ease: "easeInOut" }}
+            >
+
               <h2 className="text-2xl text-emerald-500 font-bold">{project.Overview.Title}</h2>
 
               <p className="mt-2 text-gray-700 dark:text-gray-300">
@@ -260,20 +279,29 @@ export default async function page({
               </p>
 
               <LineSeparator />
-            </div>
+            </AnimatedSection>
 
             {/* Key Features */}
-            <div className="relative mt-6">
+            <AnimatedSection
+            className={'relative mt-6'}
+            initial={{ opacity: 0, y: 60 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 , ease: "easeInOut" }}
+            >
               <h2 className="text-2xl mb-4 text-emerald-500 font-bold">{project.Feature.Title}</h2>
 
               {/* Feature Card */}
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-2">
                 
-                {projectFeatures!.map((feature) => (
-                  <div
+                {projectFeatures!.map((feature , index) => (
+                  <AnimatedDiv
                     key={feature.title}
-                    className="flex flex-col border shadow-xl dark:shadow-xs dark:shadow-emerald-500 gap-2 rounded-2xl p-4 hover:scale-105 transition-all duration-300"
+                    className={"flex flex-col border shadow-xl dark:shadow-xs dark:shadow-emerald-500 gap-2 rounded-2xl p-4 hover:scale-105 transition-all duration-300"}
+                    initial={{ opacity: 0, scale: 0.75 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.5, ease: "easeInOut", delay: (index * 0.3)+1 }}
                   >
+                    <>
                     <span className="rounded-full p-2 bg-emerald-500 w-fit">
                       {feature.icon}
                     </span>
@@ -283,24 +311,35 @@ export default async function page({
                     <p className="text-gray-700 dark:text-gray-300">
                       {feature.description}
                     </p>
-                  </div>
+                    </>
+                  </AnimatedDiv>
                 ))}
 
               </div>
 
               <LineSeparator />
-            </div>
+            </AnimatedSection>
 
             {/* Screenshots */}
-            <div className="mt-6 relative">
+            <AnimatedSection
+            className={'mt-6 relative'}
+            initial={{ opacity: 0, y: 60 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 , ease: "easeInOut" }}
+            >
               <h2 className="text-2xl text-emerald-500 font-bold">{project.Screenshot.Title}</h2>
-
               {<ScreenshotSlider screenshots={project.Screenshot.Items} />}
               <LineSeparator />
-            </div>
+            </AnimatedSection>
 
             {/* Challenges and Solutions */}
-            <div className="my-6">
+            <AnimatedSection
+            className={'my-6'}
+            initial={{ opacity: 0, y: 60 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 , ease: "easeInOut" }}
+            >
+
               <h2 className="text-2xl text-emerald-500 font-bold">
                 {project.ChallengesAndSolutions.Title}
               </h2>
@@ -342,8 +381,7 @@ export default async function page({
 
                 
               </div>
-              
-            </div>
+            </AnimatedSection>
 
           </div>
         </div>

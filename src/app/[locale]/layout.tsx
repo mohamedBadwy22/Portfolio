@@ -35,19 +35,29 @@ export async function generateMetadata(
     de: "https://mohamedbadwy.me/de",
   };
 
-  const localizedMetadata = {
+  const localizedMetadata: Record<
+  string,
+  {
+    title: string;
+    description: string;
+    keywords: string[];
+  }
+> = {
     en: {
       title: "Mohamed Badwy | Full-Stack Developer",
       description:
         "Explore Mohamed Badwy's portfolio, including his journey, skills, and projects as a software engineer and full-stack developer.",
+      keywords: ["Mohamed Badwy", "Full-Stack Developer", "Software Engineer", "React", "Next.js", "TypeScript", "Portfolio", "Web Development", "Projects"],
     },
     ar: {
       title: "محمد بدوي | مطور Full-Stack",
+      keywords: ["محمد بدوي", "مطور Full-Stack", "مهندس برمجيات", "React", "Next.js", "TypeScript", "بورتفوليو", "تطوير الويب", "مشاريع"],
       description:
         "استكشف معرض أعمال محمد بدوي، وتعرّف على رحلته ومهاراته ومشاريعه كمهندس برمجيات ومطور تطبيقات متكاملة.",
     },
     de: {
       title: "Mohamed Badwy | Full-Stack-Entwickler",
+      keywords: ["Mohamed Badwy", "Full-Stack-Entwickler", "Software-Ingenieur", "React", "Next.js", "TypeScript", "Portfolio", "Webentwicklung", "Projekte"],
       description:
         "Entdecken Sie das Portfolio von Mohamed Badwy mit seiner beruflichen Entwicklung, seinen Fähigkeiten und Projekten als Softwareingenieur und Full-Stack-Entwickler.",
     },
@@ -84,14 +94,14 @@ export async function generateMetadata(
       siteName: "Mohamed Badwy | Full-Stack Developer",
       images: [
         {
-          url: "/logo.png",
+          url: "https://mohamedbadwy.me/logo.png",
           width: 800,
           height: 600,
         },
       ],
       locale: locale,
       type: "website",
-    }
+    } 
   };
 }
 
