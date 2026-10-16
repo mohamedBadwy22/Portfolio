@@ -94,9 +94,7 @@ export async function generateMetadata(
       siteName: "Mohamed Badwy | Full-Stack Developer",
       images: [
         {
-          url: "https://mohamedbadwy.me/logo.png",
-          width: 800,
-          height: 600,
+          url: "https://mohamedbadwy.me/opengraph_image.png"
         },
       ],
       locale: locale,
